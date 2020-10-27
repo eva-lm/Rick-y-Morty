@@ -1,0 +1,13 @@
+@import "./core/variables";
+
+.footer__container {
+  margin-top: 10px;
+  border-top: solid 1px $lightColor;
+  width: 100vw;
+}
+
+.footer__copy {
+  text-align: center;
+  color: $lightColor;
+  font-family: $font;
+}

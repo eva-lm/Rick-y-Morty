@@ -1,0 +1,31 @@
+@import "./core/variables";
+
+.character__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 35px;
+  width: 100%;
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media (min-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+.character__item {
+  background-color: $primaryColor;
+  opacity: 0.8;
+
+  margin: auto;
+  &:hover {
+    border: solid 5px rgb(242, 255, 0);
+    box-shadow: 10px 5px 8px 3px rgba(102, 223, 27, 0.365);
+    opacity: 1;
+  }
+}
+.character__link {
+  color: $lightColor;
+  text-align: start;
+  text-decoration: none;
+}

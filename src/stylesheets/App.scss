@@ -1,0 +1,9 @@
+@import "./core/variables";
+
+.App {
+  background-color: $darkColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}

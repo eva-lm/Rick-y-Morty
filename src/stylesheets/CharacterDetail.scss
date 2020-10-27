@@ -1,0 +1,68 @@
+@import "./core/variables";
+
+.character__detail {
+  border: solid 2px $primaryColor;
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  max-width: 400px;
+  @media (min-width: 768px) {
+    max-width: 650px;
+    display: flex;
+  }
+}
+.detail__image-container {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.back__button {
+  align-self: flex-end;
+  font-family: $font;
+  color: $lightColor;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: $darkColor;
+  border: solid 2px $primaryColor;
+  margin-bottom: 15px;
+  &:hover {
+    background-color: $primaryColor;
+    color: $darkColor;
+  }
+}
+.detail {
+  &__card {
+    padding-top: 100px;
+  }
+  &__name {
+    color: $lightColor;
+    font-family: $font;
+    margin-left: 40px;
+  }
+  &__list {
+    list-style: none;
+  }
+  &__status {
+    color: $lightColor;
+    font-family: $font;
+    font-size: 18px;
+  }
+  &__specie {
+    color: $lightColor;
+    font-family: $font;
+    font-size: 18px;
+  }
+  &__origin {
+    color: $lightColor;
+    font-family: $font;
+    font-size: 18px;
+  }
+  &__episode {
+    color: $lightColor;
+    font-family: $font;
+    font-size: 18px;
+  }
+}

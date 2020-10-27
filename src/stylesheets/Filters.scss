@@ -1,0 +1,17 @@
+@import "./core/variables";
+
+.filter__container {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.filter__name {
+  background-color: $darkColor;
+  border: solid 2px $primaryColor;
+  width: 300px;
+  height: 30px;
+  color: $primaryColor;
+  font-family: $font;
+  font-size: 20px;
+}
